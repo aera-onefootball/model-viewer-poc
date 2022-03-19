@@ -26,7 +26,7 @@
 
 [<img src="./readme-img/grain-chrome-ubuntu.gif"/>]()
 
-> As you can see it takes some time to lead
+> As you can see it takes some time to load
 
 <br>
 
