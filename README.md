@@ -70,11 +70,13 @@
 
 <br>
 
-### Lights
+## Lights
 
 <br>
 
 - I think it s a great **API**, but for me there is not enough **documentation or community** to dive more into it, and it s sad because the API makes 3d visualization so easy.
+
+<br>
 
 > **The problem with not having more options:** just imagine you have a crazy idea involving lights of all sorts, here you have this (with the incorporated lighting that I think we have no way to touch):
 
@@ -82,7 +84,30 @@
 exposure = oscillate(0, 2,
 ```
 
+> ⚠️ But It's still too early to tell, maybe I am missing something? perhaps there is a possibility to incorporate similar lights to the ones **threejs** offers:
+
 <br>
+
+##### three js lights examples
+
+[<img src="./readme-img/lights-threejs.gif"/>](https://youtu.be/T6PhV4Hz0u4)
+
+<br>
+
+<br>
+
+#### Conclusion
+
+<details>
+<summary>Click to unfold</summary> 
+   
+<br>
+
+#### I guess for now we have the oscillate, neutral and the baked lights.
+
+```javascript
+exposure = oscillate(0, 2,
+```
 
 #### from:
 
@@ -106,7 +131,7 @@ exposure = oscillate(0, 2,
 
 <br>
 
-### Or this which is really interesting:
+#### Or this which is really interesting:
 
 > **Documentation:** Showing the difference between our two baked-in lighting environments
 > If no environment or skybox is specified, we have a baked-in default scene that is faster to load. It is designed primarily for frontward viewing, but there is also a baked-in neutral lighting environment that is evenly lit on all sides, and can be activated by setting environment-image="neutral". <br><br> This lighting has also been roughly calibrated to render colors at nearly their **baseColorMap RGB** values. You may find the neutral lighting to be more pleasing than the default when using auto-rotate, as shown here, or when object does not have a clear front side.
@@ -129,6 +154,10 @@ exposure = oscillate(0, 2,
 })();
 </script>
 ```
+
+<br>
+
+</details>
 
 <br>
 <br>
@@ -188,9 +217,7 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 #### [Cycling between different models](https://modelviewer.dev/examples/loading/#cyclingModels)
 
 <details>
-<summary>Click to unfold</summary> 
-   
-
+<summary>Click to unfold</summary>
 
 <br>
 
@@ -263,3 +290,19 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 ##### (I still need to test it)
 
 ###### [are-ar-nfts-the-next-big-thing/](https://artlabs.ai/blog/are-ar-nfts-the-next-big-thing/)
+
+<br>
+
+---
+
+<br>
+
+### Interesting links
+
+[vectary](https://www.vectary.com/)
+
+[sayduck](https://sayduck.com/)
+
+[Crypto Art, Augmented Reality & Virtual Reality Art ](https://www.youtube.com/watch?v=4TJhLoFqd0U)
+
+[Implement 3D Easily with Google's model-viewer](https://www.youtube.com/watch?v=8uMBmfzgjN0)
