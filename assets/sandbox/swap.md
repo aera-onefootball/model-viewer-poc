@@ -1,8 +1,26 @@
 <br>
 
-#### I added this, in case they decided to modify the official page
+⚠️ I added this in case they decided to modify the official page
+
+<br>
+<br>
+
+### [Swap Model Variants](https://modelviewer.dev/examples/scenegraph/)
+
+This demonstrates the use of the glTF materials variants extension which allows multiple materials and textures to be packed with a single geometry in a GLB. Our API exposes these variant names as availableVariants and you can select one using the variantName attribute. This is similar functionality to the lower-level scene-graph API below, but in that case it is up to you to choose the right texture URL, rather than having that information stored in the GLB. Note: setting variantName to null reverts to the initial material.
+
+<br>
+
+---
+
+<br>
+
+#### [Swap textures](https://modelviewer.dev/examples/scenegraph/#swapTextures)
+
+As above, you can change these values in AR, but only in WebXR mode. **iOS Quick Look reflects these texture changes so long as the USDZ is auto-generated.**
 
 [model viewer / swap textures](https://modelviewer.dev/examples/scenegraph/#swapTextures)
+
 <br>
 
 ```javascript

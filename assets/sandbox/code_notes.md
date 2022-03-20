@@ -1,3 +1,6 @@
+#### I wanted to save the notes I tool when I just started testing
+
+```javascript
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,9 +45,9 @@
         letter-spacing: 5px;
         text-transform: uppercase;
       }
-      /* 
-      
-      
+      /*
+
+
       */
 
       .wrapper {
@@ -61,7 +64,14 @@
 
         margin: 3px;
         filter: contrast(100%) brightness(100%);
-
+        /* background: linear-gradient(
+            0deg,
+            rgb(181, 185, 123),
+            rgba(224, 213, 175, 0.493)
+          ),
+          url(./assets/noise.png);
+        border: 10px solid rgba(221, 228, 238, 0.151);*/
+        /*  */
         background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
       }
     </style>
@@ -69,9 +79,62 @@
     <!--  -->
   </head>
   <body>
+    <!-- <model-viewer
+      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      src="assets/scene.gltf
+
+
+
+
+      ar
+
+Augmented Reality
+Attributes
+ar
+
+A prioritized list of the types of AR experiences to enable.
+Allowed values are "webxr", to launch the AR experience in the browser, "scene-viewer",
+to launch the Scene Viewer app, "quick-look", to launch the iOS Quick Look app.
+You can specify any number of modes separated by whitespace. Note that the presence
+of an ios-src will enable quick-look by itself; specifying quick-look here allows us
+to generate a USDZ on the fly rather than downloading a separate ios-src file.
+
+https://modelviewer.dev/examples/augmentedreality/
+
+
+
+
+ar-modes="webxr scene-viewer quick-look"
+
+
+
+----------------------
+
+environment-image="shared-assets/environments/moon_1k.hdr"
+
+----------------------
+
+
+poster="shared-assets/models/NeilArmstrong.webp"
+
+Displays an image instead of the model, useful for showing the
+user something before a model is loaded and ready to render.
+If you use a poster with transparency, you may also want to set
+ --poster-color to transparent so that the background shows through.
+
+      seamless-poster
+      shadow-intensity="1"
+      camera-controls
+    ></model-viewer> -->
     <div class="container">
       <h1>model viewer</h1>
 
+      <!-- <model-viewer
+        src="assets/flower_hair-stair.glb"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+      ></model-viewer> -->
       <div class="wrapper">
         <model-viewer
           src="assets/carta2-with-modifiers.glb"
@@ -80,7 +143,8 @@
           auto-rotate
           disable-zoom
         ></model-viewer>
-        <!--  -->
+        <!-- https://polyhaven.com/a/whipple_creek_regional_park_04
+ -->
         <model-viewer
           skybox-image="assets/whipple_creek_regional_park_04_4k.hdr"
           environment-image="assets/studio_garden_4k.hdr"
@@ -89,12 +153,12 @@
           camera-controls
           auto-rotate
         ></model-viewer>
-        <!-- 
+        <!--
 
 
-        shadow-intensity
+shadow-intensity
 
-         -->
+ -->
 
         <model-viewer
           alt="A 3D astronaut model depicted within a forest"
@@ -104,12 +168,28 @@
           shadow-intensity="1"
           shadow-softness="1"
         ></model-viewer>
-        <!-- 
-        
+        <!--
+
         reveal
 
- 
-         -->
+https://modelviewer.dev/docs/
+
+reveal="interaction"  the model will reveal only
+when the user clicks on the selected area
+
+
+reveal="manual"  nothing happens, but I guess its possible
+to add a button and then once clicked the model will appear.
+
+something like this:
+
+https://modelviewer.dev/examples/augmentedreality/#customButton
+
+reveal="auto"
+
+Auto is the same i guess as to have no attribute reveal at all
+
+      -->
 
         <model-viewer
           src="assets/TradingCard.glb"
@@ -119,9 +199,9 @@
           reveal="auto"
         ></model-viewer>
 
-        <!-- 
+        <!--
 
-      Exposure 
+      Exposure
 
 
 
@@ -156,7 +236,7 @@
       </div>
     </div>
 
-    <!-- 
+    <!--
 
 
 
@@ -176,7 +256,7 @@ https://modelviewer.dev/examples/animation/index.html
 Choose the animation inside the characters page:
 click on the dropdown and choose whatever you like.
 
-I took: Run, 
+I took: Run,
 
 https://poly.pizza/m/DgOCW9ZCRJ
 
@@ -218,15 +298,15 @@ https://poly.pizza/m/DgOCW9ZCRJ
           })();
         </script>
 
-        <!-- 
-          
-          
-          
+        <!--
+
+
+
           crossfade animation
-        
-        
-        
-        
+
+
+
+
         -->
 
         <model-viewer
@@ -253,3 +333,5 @@ https://poly.pizza/m/DgOCW9ZCRJ
     </div>
   </body>
 </html>
+
+```

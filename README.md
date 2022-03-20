@@ -2,11 +2,13 @@
 
 <br>
 
-- Still in progress / i will clean the code after i finish taking notes.
+- Still in progress / I will clean the code after I finish taking notes.
 
 <br>
 <br>
 <br>
+
+[sandbox default](./assets/sandbox/swap.md)
 
 ### ⚠️ Performance
 
@@ -141,6 +143,48 @@ exposure = oscillate(0, 2,
 #### [Swap textures](https://modelviewer.dev/examples/scenegraph/#swapTextures)
 
 As above, you can change these values in AR, but only in WebXR mode. iOS Quick Look does not reflect these color changes as ⚠️ **USDZ does not appear to support colors multiplied onto textures.**
+
+<br>
+<br>
+
+### Lazy loading & and different formats
+
+[Read more | Documentation ](https://modelviewer.dev/examples/loading/)
+
+<br>
+
+#### The Lazy Loading
+
+<br>
+
+- Easy to use for basic projects but I don't know how good this can be if the page is being loaded by many at the same time.
+
+<br>
+
+- **Comparing to threejs**, I dont know how reliable the **easy loading** provided by **model-viewer** can be, but there must be a way to handle it with functions like with threejs (to load depending of how many models we have on the page).
+
+<br>
+
+> But i think its a bad thing already, if the user has to wait until all the models are loaded, Unless you have some sort of video or something the user can watch, while the scenes are loading( just an idea)
+
+<br>
+
+### Draco
+
+<br>
+
+- As you can see there is a way to integrate the **Draco compression for the models** (I still need to test it)
+
+<br>
+
+[<img src="./readme-img/lazy-loading-poster-formats.gif"/>](https://modelviewer.dev/examples/loading/)
+
+<br>
+
+<br>
+<br>
+
+---
 
 <br>
 <br>
