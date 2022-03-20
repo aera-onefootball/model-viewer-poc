@@ -4,8 +4,15 @@
 
 #### Still in progress / I will clean the code after I finish taking notes.
 
-[sandbox default](./assets/sandbox/swap.md)
+<br>
 
+- Here is the first preview (I am not using draco to compress the models, so be cautious) 🌞
+
+<br>
+
+##### [1 preview | without draco](model-viewer-test-without-draco)
+
+<br>
 <br>
 <br>
 
@@ -339,5 +346,13 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 [Crypto Art, Augmented Reality & Virtual Reality Art ](https://www.youtube.com/watch?v=4TJhLoFqd0U)
 
 [Implement 3D Easily with Google's model-viewer](https://www.youtube.com/watch?v=8uMBmfzgjN0)
+
+[poly models](https://poly.pizza/m/DgOCW9ZCRJ)
+
+<br>
+
+#### code notes:
+
+[sandbox default](./assets/sandbox/swap.md)
 
  </details>
