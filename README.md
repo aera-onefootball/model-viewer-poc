@@ -4,11 +4,7 @@
 
 #### Still in progress / I will clean the code after I finish taking notes.
 
-<br>
-
-- Here is the first preview (I am not using draco to compress the models, so be cautious) 🌞
-
-<br>
+Here is the first preview (I am not using draco to compress the models, so be cautious) 🌞
 
 ##### [1 preview | without draco](https://model-viewer-test-without-draco.netlify.app/)
 
