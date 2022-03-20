@@ -2,19 +2,23 @@
 
 <br>
 
-- Still in progress / I will clean the code after I finish taking notes.
-
-<br>
-<br>
-<br>
+#### Still in progress / I will clean the code after I finish taking notes.
 
 [sandbox default](./assets/sandbox/swap.md)
 
-### ⚠️ Performance
+<br>
+<br>
+
+## ⚠️ Performance
 
 <br>
 
-#### I Put all the scenes together, to see how long it could actually take until the browser crashes.
+<details>
+<summary>Click to unfold</summary> 
+   
+<br>
+
+#### I decided to put all the scenes together, to see how long it could actually take until the browser crashed.
 
 <br>
 
@@ -43,6 +47,12 @@
 <br>
 
 > ⚠️ There is a lot to uncover here: the size of the images, the size of models, lights, textures etc contribute a lot in the weight of each scene.
+
+<br>
+   
+   
+   
+</details>
 
   <br>
   <br>
@@ -167,6 +177,61 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 > But i think its a bad thing already, if the user has to wait until all the models are loaded, Unless you have some sort of video or something the user can watch, while the scenes are loading( just an idea)
 
+<br>
+
+#### More
+
+[preload](https://modelviewer.dev/examples/loading/#preload)
+
+<br>
+
+#### [Cycling between different models](https://modelviewer.dev/examples/loading/#cyclingModels)
+
+<details>
+<summary>Click to unfold</summary> 
+   
+
+
+<br>
+
+```html
+<model-viewer
+  id="toggle-model"
+  src="../../shared-assets/models/shishkebab.glb"
+  alt="A 3D model of a shishkebab"
+  shadow-intensity="1"
+  camera-controls
+  auto-rotate
+></model-viewer>
+```
+
+```html
+<script>
+  const models = ["shishkebab.glb", "Astronaut.glb"];
+  const toggleModel = document.querySelector("#toggle-model");
+  let j = 0;
+  setInterval(
+    () =>
+      toggleModel.setAttribute(
+        "src",
+        `../../shared-assets/models/${models[j++ % 2]}`
+      ),
+    2000
+  );
+</script>
+```
+
+<br>
+
+[<img src="./readme-img/cycling-models.gif"/>](https://modelviewer.dev/examples/loading/)
+
+<br>
+
+</details>
+
+<br>
+
+<br>
 <br>
 
 ### Draco
