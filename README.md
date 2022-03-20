@@ -57,11 +57,6 @@
   <br>
   <br>
 
----
-
-  <br>
-  <br>
-
 ## Basic attributes & Animation
 
 ##### (camera, zoom, lights, shadow, sky-box img, env images )
@@ -252,12 +247,11 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 <br>
 
 </details>
+
 <br>
 <bt>
 
 ---
-
-<br>
 
 #### More
 
@@ -331,9 +325,7 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 ---
 
-<br>
-
-### Interesting links
+#### Interesting
 
 <details>
 <summary>Click to unfold</summary>
