@@ -72,6 +72,9 @@
 
 ## Lights
 
+<details>
+<summary>Click to unfold</summary> 
+   
 <br>
 
 - I think it s a great **API**, but for me there is not enough **documentation or community** to dive more into it, and it s sad because the API makes 3d visualization so easy.
@@ -91,8 +94,6 @@ exposure = oscillate(0, 2,
 ##### three js lights examples
 
 [<img src="./readme-img/lights-threejs.gif"/>](https://youtu.be/T6PhV4Hz0u4)
-
-<br>
 
 <br>
 
@@ -178,9 +179,19 @@ exposure = oscillate(0, 2,
 </details>
 
 <br>
+
+</details>
+
 <br>
 
+---
+
 ## Events
+
+<details>
+<summary>Click to unfold</summary> 
+   
+<br>
 
 - In this section you will not only learn how to change the colors but also: materials, textures, normals, occlusion, emission...
 
@@ -202,15 +213,23 @@ exposure = oscillate(0, 2,
 As above, you can change these values in AR, but only in WebXR mode. iOS Quick Look does not reflect these color changes as ⚠️ **USDZ does not appear to support colors multiplied onto textures.**
 
 <br>
+
+</details>
+
 <br>
+
+---
 
 ### Lazy loading & and different formats
 
-[Read more | Documentation ](https://modelviewer.dev/examples/loading/)
-
+<details>
+<summary>Click to unfold</summary> 
+   
 <br>
 
 #### The Lazy Loading
+
+[Read more | Documentation ](https://modelviewer.dev/examples/loading/)
 
 <br>
 
@@ -226,11 +245,21 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 <br>
 
-#### More
+#### More about this:
 
 [preload](https://modelviewer.dev/examples/loading/#preload)
 
 <br>
+
+</details>
+<br>
+<bt>
+
+---
+
+<br>
+
+#### More
 
 #### [Cycling between different models](https://modelviewer.dev/examples/loading/#cyclingModels)
 
@@ -272,14 +301,7 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 <br>
 
-</details>
-
-<br>
-
-<br>
-<br>
-
-### Draco
+## Draco
 
 <br>
 
@@ -291,19 +313,15 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 <br>
 
-<br>
+</details>
+
 <br>
 
 ---
 
-<br>
-<br>
-
 # AR
 
 #### [Augmented Reality : Attributes](https://modelviewer.dev/docs/#augmentedreality-attributes)
-
-<br>
 
 ##### (I still need to test it)
 
@@ -317,6 +335,11 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 
 ### Interesting links
 
+<details>
+<summary>Click to unfold</summary>
+
+<br>
+
 [vectary](https://www.vectary.com/)
 
 [sayduck](https://sayduck.com/)
@@ -324,3 +347,5 @@ As above, you can change these values in AR, but only in WebXR mode. iOS Quick L
 [Crypto Art, Augmented Reality & Virtual Reality Art ](https://www.youtube.com/watch?v=4TJhLoFqd0U)
 
 [Implement 3D Easily with Google's model-viewer](https://www.youtube.com/watch?v=8uMBmfzgjN0)
+
+ </details>
