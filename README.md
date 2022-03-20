@@ -10,7 +10,7 @@
 
 <br>
 
-##### [1 preview | without draco](model-viewer-test-without-draco)
+##### [1 preview | without draco](https://model-viewer-test-without-draco.netlify.app/)
 
 <br>
 <br>
