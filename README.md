@@ -96,7 +96,7 @@ exposure = oscillate(0, 2,
 
 <br>
 
-#### Conclusion
+#### ⚠️ Conclusion
 
 <details>
 <summary>Click to unfold</summary> 
@@ -104,6 +104,10 @@ exposure = oscillate(0, 2,
 <br>
 
 #### I guess for now we have the oscillate, neutral and the baked lights.
+
+<br>
+
+( ⚠️ update: read the section update under this block of code )
 
 ```javascript
 exposure = oscillate(0, 2,
@@ -154,6 +158,20 @@ exposure = oscillate(0, 2,
 })();
 </script>
 ```
+
+<br>
+
+## Update 🦖
+
+##### I just found this editor
+
+- For what i see, it gives you a lot of options related to the materials/textures, lights and more. It s a very useful tool I hope they don't discontinue
+
+#### [editor ](https://modelviewer.dev/editor/)
+
+<br>
+
+[<img src="./readme-img/hidden-editor.gif"/>]()
 
 <br>
 
